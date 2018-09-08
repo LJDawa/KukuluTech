@@ -10,8 +10,6 @@ app.use(cookieParser());
 
 // APIs
 var mongoose = require("mongoose");
-//const Promise = require("bluebird");
-//mongoose.Promise = Promise;
 //mongoose.connect("mongodb://localhost:27017/kukulutech");
 mongoose.connect("mongodb://kukulu:kukulu1@ds149732.mlab.com:49732/kukulutech");
 
