@@ -10,8 +10,8 @@ app.use(cookieParser());
 
 // APIs
 var mongoose = require("mongoose");
-//mongoose.connect("mongodb://localhost:27017/kukulutech");
-mongoose.connect("mongodb://kukulu:kukulu1@ds149732.mlab.com:49732/kukulutech");
+mongoose.connect("mongodb://localhost:27017/kukulutech");
+//mongoose.connect("mongodb://kukulu:kukulu1@ds149732.mlab.com:49732/kukulutech");
 
 var Members = require("./models/members");
 var Games = require("./models/games");
